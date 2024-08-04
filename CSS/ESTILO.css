@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+body{
+
+
+    background-color: rgb(254, 254, 254);
+    margin-left: 10%;
+    margin-right: 50px;
+    
+}
+h1{
+    font-family: "Honk", system-ui;
+    color: #180f4a;
+   font-size: 40px;
+   text-align:right;
+}
+
+h2{
+
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+h3{
+    
+text-decoration: solid;}
+h6{
+    text-align: center;
+   
+}
+
+.centro{
+text-align: center;
+}
+div{
+
+    text-align:center;
+}
+.navbar{
+
+    display: flex;
+    height: 100px;
+    background: cadetblue;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Logo{
+   flex: 20px;
+   border: 1px solid red;
+   text-align: center;
+   align-items: center;
+}
+
+.menu{
+    flex:80%;
+    text-align: right;
+    padding: 20px;
+
+}
+.menu a{
+color: #180f4a;
+text-decoration: none;
+font-size: 20px;
+padding: 20px 16px;
+}
+.menu a:hover{
+
+    color:#ff2978;
+    border-top: 4px solid #180f4a;
+}
+
+#botao{
+background:#180f4a ;
+padding:10px 25px ;
+color:white;
+border-radius: 5px;
+
+}
+
+#botao:hover{
+    border:none;
+    background:#ff2978 ;
+}
